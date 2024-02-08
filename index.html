@@ -255,7 +255,7 @@
               </div>
             </div>
             
-             DevOps
+             <!-- DevOps
             <div class="details-container">
               <h2 class="experience-sub-title">DevOps</h2>
               <div class="article-container">
@@ -302,7 +302,7 @@
                   </div>
                 </article>
               </div>
-            </div> 
+            </div>  -->
             
           </div>
         </div>
@@ -416,7 +416,7 @@
                         <textarea placeholder="Message"></textarea>
                     </div>
                     <div class="form-button">
-                        <button class="btn"  onclick="sendEmail()">Send <i class="uil uil-message"></i></button>
+                        <button class="btn"  onclick="window.location.href='mailto:arjunansri21@gmail.com';">Send <i class="uil uil-message"></i></button>
                     </div>
                 </div>
              </div>
@@ -479,18 +479,4 @@
     <script src="assets/js/main.js"></script>
 </body>
 
-<script>
-  function sendEmail() {
-      const name = document.getElementById('nameInput').value;
-      const email = document.getElementById('emailInput').value;
-      const message = document.getElementById('messageInput').value;
-
-      const subject = 'Contact From Portfolio';
-      const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
-
-      const mailtoLink = `mailto:arjunansri21@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-      window.open(mailtoLink);
-  }
-</script>
 </html>
