@@ -880,4 +880,9 @@ img {
     .phone-degree {
         font-weight: bold;
       }
+      *
+      {
+        overflow-x: hidden;
+      }
+   
   }
