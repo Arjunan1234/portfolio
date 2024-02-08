@@ -130,6 +130,7 @@ nav{
 .nav-menu-btn i{
     font-size: 28px;
     cursor: pointer;
+    margin-right: 49px;
 }
 .active-link{
     position: relative;
