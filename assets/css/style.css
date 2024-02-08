@@ -702,20 +702,20 @@ img {
     margin-right: -4px;
 }
 .side-css {
-    margin-right: -4px;
+    margin-right: -13px;
 }
 
 .side-bootstrap {
-    margin-right: 30px;
+    margin-right: -8px;
 }
 .side-javascript{
-    margin-right: 20px;
+    margin-right: -10px;
 }
 .side-react {
     margin-right: 71px;
 }
 .side-java {
-    margin-right: 86px;
+    margin-right: 5px;
 }
 .side-pods
 {
@@ -869,5 +869,14 @@ img {
     flex-direction: column;
   }
 
-
-
+  @media only screen and (max-width: 767px) {
+    /* Decrease text size for better mobile readability */
+    .phone-degree,
+    .phone-college,
+    .phone-cgpa {
+      font-size: 14px; /* Adjust the font size for mobile screens */
+    }
+    .phone-degree {
+        font-weight: bold;
+      }
+  }
